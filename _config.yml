@@ -1,6 +1,7 @@
 theme: minima
 title: test
 description: test description
+baseurl: /website
 plugins: ['jekyll/scholar']
 scholar:
   source: /_bibliography

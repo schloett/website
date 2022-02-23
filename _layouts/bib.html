@@ -10,7 +10,7 @@
 {{ authors | array_to_sentence_string }}.
 
 {% if links.pdf %}
-<a href="{{ links.pdf | relative_url }}">{{ entry.title }}</a>.
+<a href="{{ links.pdf }}">{{ entry.title }}</a>.
 {% else %}
 <i>{{ entry.title }}.</i>
 {% endif %}
